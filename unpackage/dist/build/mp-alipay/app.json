@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/money/money",
+    "pages/indent/indent",
+    "pages/mine/mine",
+    "pages/address/address"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/sy.png",
+        "activeIcon": "static/sy-checked.png"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "name": "赚钱",
+        "icon": "static/je.png",
+        "activeIcon": "static/je-checked.png"
+      },
+      {
+        "pagePath": "pages/indent/indent",
+        "name": "订单",
+        "icon": "static/dd.png",
+        "activeIcon": "static/dd-checked.png"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "name": "我的",
+        "icon": "static/my.png",
+        "activeIcon": "static/my-checked.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
